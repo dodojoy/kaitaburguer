@@ -11,3 +11,9 @@ Neste projeto, os alunos terão a oportunidade de aplicar diretamente os conceit
 Um aspecto fundamental do projeto Kaitaburguer é a integração de um arquivo JSON contendo informações sobre o cardápio da lanchonete de hambúrgueres fictícia. Os alunos serão desafiados a utilizar métodos de manipulação de arrays em JavaScript para extrair, filtrar, ordenar e exibir esses dados de forma dinâmica na página web.
 
 Ao consumir o JSON e trabalhar com os métodos de manipulação de arrays, os alunos irão aprimorar suas habilidades em JavaScript, ganhando proficiência na manipulação de dados estruturados e na construção de interfaces interativas.
+
+## 3. Protótipo
+
+### Mobile
+
+### Desktop
