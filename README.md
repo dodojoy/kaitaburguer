@@ -1,7 +1,10 @@
 # kaitaburguer
 Projeto Kaitaburguer - Curso de Introdução ao front-end (CodeJovem)
 
-O ]projeto Kaitaburguer é o segundo exercício prático oferecido no curso de Introdução ao Frontend pelo projeto CodeJovem. Este projeto foi cuidadosamente planejado para proporcionar aos participantes uma experiência prática valiosa no uso dos métodos de manipulação de arrays enquanto consomem dados de um arquivo JSON.
+## 1. Introdução
+O projeto Kaitaburguer é o segundo exercício prático oferecido no curso de Introdução ao Frontend pelo projeto CodeJovem. Este projeto foi cuidadosamente planejado para proporcionar aos participantes uma experiência prática valiosa no uso dos métodos de manipulação de arrays enquanto consomem dados de um arquivo JSON.
+
+## 2. Objetivos de aprendizagem
 
 Neste projeto, os alunos terão a oportunidade de aplicar diretamente os conceitos aprendidos em aulas anteriores sobre HTML e CSS, além de explorar os fundamentos de JavaScript relacionados à manipulação de dados dinâmicos.
 
