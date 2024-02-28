@@ -38,13 +38,17 @@ function printTabs() {
     .map(
       (tab) =>
         `
-    <div id="tab" data-tab="${tab.tipo}">
+    <div class="tab ${currentTab === tab.tipo ? "activeTab" : ""}" data-tab="${
+          tab.tipo
+        }">
         <img src="${
           tab.tipo === currentTab ? tab.activeIcon : tab.icon
         }" alt="${tab.alt}"/>
-        ${isMobile ? "" : `<span>${tab.name}</span>`}
+        ` +
+        //` ${isMobile ? "" : `<span>${tab.name}</span>`} Optei por fazer isso por css pois a função não atualiza em tempo real, mas se for necessário arrumo um jeito de fazer funcionar
+        `<span>${tab.name}</span>
         ${tab.tipo === currentTab ? `<div class="divider"></div>` : ""}
-    <div/>
+    </div>
   `
     )
     .join("");
@@ -56,9 +60,9 @@ function printCards() {
     .map(
       (item) =>
         `
-      <div>
+      <div class="card">
         <img src="${item.img}" alt="${item.alt}" />
-        <div>
+        <div class="info">
           <p class="titulo-card">${item.nome}</p>
           ${
             item.ingredientes
@@ -67,7 +71,7 @@ function printCards() {
           `
               : ""
           }
-          <p class="preco">${item.preco}</p>
+          <p class="preco">R$ ${item.preco.toFixed(2)}</p>
         </div>
       </div>
       `
